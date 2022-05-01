@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem 0;
+}
+.header-content{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.header-content nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.header-content nav li{
+    display: inline;
+    margin: 0 0 0 1.5rem;
+}
+.header-content nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.header-content nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.section-container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.section-container li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.section-container li:hover{
+    border-color: #C78C19;
+    color: #C78C19;
+}
+.section-container li:hover h2{
+    font-size: 34px;
+}
+.section-container li:active{
+    border-color: #C78C19;
+}
+.section-container h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.section-container .price{
+    margin: 1rem 0 0 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.section-container .descrition{
+    font-size: 18px;
+}
+.footer-content{
+    background: url(./img/bg.jpg);
+    text-align: center;
+    padding: 4rem 0;
+}
+.footer-content p{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+}
+@media(min-width:769px) and (max-width:1024px){
+    .section-container{
+        height: 43.8vh;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .header-content, .project, .section-container, .section-container li {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-container li {
+        list-style: none;
+        display: block;
+        box-sizing: initial;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 480px) {
+    .header-content, .project, .section-container, .section-container li {
+        width: auto;
+    }
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .section-container li {
+        list-style: none;
+        display: block;
+        box-sizing: initial;
+        margin-bottom: 10px;
+    }
+}
+/***Feito por:Matheus de Souza Silva ***/

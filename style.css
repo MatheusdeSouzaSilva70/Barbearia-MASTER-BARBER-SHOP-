@@ -1,0 +1,174 @@
+*{
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.header-content{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+.header-content nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.header-content nav li{
+    display: inline;
+    margin: 0 0 0 1.5rem;
+}
+.header-content nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.header-content nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 3.2rem;
+    margin: 0 0 1.6rem;
+    clear: left;
+}
+.tool{
+    width: 15%;
+    float: left;
+    margin: 0 2rem 2rem 0;
+}
+.project{
+    padding: 3rem 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+.project p{
+    margin: 0 0 1.6rem;
+}
+.project strong{
+    font-weight: bold;
+}
+.project em{
+    font-style: italic;
+}
+.maps{
+    padding: 4.8rem 0;
+    background:linear-gradient(#FEFEFE, #888888);
+}
+.maps p{
+    margin: 0 0 3.2rem;
+    text-align: center;
+}
+.maps-content{
+    width: 940px;
+    margin: 0 auto;
+}
+.advantage{
+    padding: 4.2rem 0;
+    background:#888888;
+    width: 100%;
+}
+.advantage-list{
+    width: 64%;
+    margin: 0 auto;
+}
+.advantage-list ul{
+    list-style: none;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens::before{
+    content:"★ ";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.img-profits{
+    width: 60%;
+}
+.video{
+    width: 40%;
+    margin: 1.6rem auto;
+}
+.footer-content{
+    background: url(./img/bg.jpg);
+    text-align: center;
+    padding: 4rem 0;
+}
+.footer-content p{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    margin: 2rem 0 0 0;
+}
+@media(min-width:481px) and (max-width:768px){
+    .header-content, .project, .advantage-list, .maps-content {
+        width: auto;
+    }
+    .tool{
+        width: 20%;
+        margin: 0 1rem 1rem 0;
+    }
+    .advantage-list{
+        margin: 0 auto;
+    }
+    .advantage-list, .img-profits, li.itens {
+        width: 400px;
+    }
+    .video, .maps-content{
+        width: 85%;
+        height: 50%;
+    }
+}
+@media(max-width: 480px) {
+    .header-content, .project, .advantage-list, .maps-content {
+        width: auto;
+    }
+
+    .header-content h1 {
+        text-align: center;
+    }
+    .header-content nav {
+        position: static;
+        text-align: center;
+    }
+    .header-content nav a{
+        font-size: 1.6rem;
+    }
+    .tool{
+        width: 30%;
+        margin: 0 1rem 1rem 0;
+    }
+    .advantage-list{
+        margin: 0 auto;
+    }
+    .advantage-list, .img-profits, li.itens {
+        width: 230px;
+    }
+    .video, .maps-content{
+        width: 85%;
+        height: 50%;
+    }
+}/***Feito por:Matheus de Souza Silva ***/
