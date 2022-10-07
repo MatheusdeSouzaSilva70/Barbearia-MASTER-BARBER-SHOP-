@@ -23,7 +23,8 @@
 - Responsivo
 
 ## Links:
-- Portfolio: https://matheusdesouzasilva70.github.io/Portfolio/
+- Projeto:https://matheusdesouzasilva70.github.io/Barbearia-MASTER-BARBER-SHOP-/
+- Portfolio:https://matheusdesouzasilva70.github.io/Portfolio/
 - LinkedIn:https://www.linkedin.com/in/matheus-de-souza-silva-288194229/
 
 ## Autor:
